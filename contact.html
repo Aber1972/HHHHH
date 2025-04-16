@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+        <nav> 
+            <ul class="navbar">
+
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="about me.html"> About-me</a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                    <li><a href="gallery.html"> Gallery </a></li>
+            </ul>
+        </nav>
+      <h1>Contact Me</h1>
+    </header>
+
+    <section class="contact-section">
+      <form action="Submit.html" method="get">
+        <!-- Name -->
+        <label for="name">Name:</label><br />
+        <input
+          placeholder="Your Full Name"
+          type="text"
+          id="name"
+          name="name"
+          required
+        /><br /><br />
+
+        <!-- Email -->
+        <label for="email">Email:</label><br />
+        <input
+          placeholder="Your Email Adress"
+          type="email"
+          id="email"
+          name="email"
+          required
+        /><br /><br />
+
+        <!-- Message -->
+        <label for="message">Message:</label><br />
+        <input placeholder="If you have something to say "
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br /><br />
+
+        <!-- Gender -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Id rather not say</label><br /><br />
+
+        <!-- Interests -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="Coding" />
+        <label for="coding">Coding</label><br />
+        <input type="checkbox" id="design" name="interests" value="Design" />
+        <label for="design">Design</label><br />
+        <input type="checkbox" id="art" name="interests" value="Art" />
+        <label for="art">Teaching</label><br />
+        <input type="checkbox" id="music" name="interests" value="Music" />
+        <label for="music">Poem</label><br /><br />
+
+        <!-- Submit -->
+        <button type="submit">submit</button>
+      </form>
+
+      <p>
+        Or contact me directly via email:
+        <a href="farooqaber1@gmail.com">farooqaber1@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; Fataneh Aber </p>
+    </footer>
+  </body>
+</html>
