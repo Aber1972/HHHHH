@@ -217,3 +217,9 @@ video {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   max-width: 100%;
 }
+.container {
+  max-width: 1200;
+  width: 100;
+  margin: 0 auto;
+  padding: 0 20px;
+}
